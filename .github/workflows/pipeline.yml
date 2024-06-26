@@ -29,3 +29,6 @@ jobs:
             # Add name
             - name: Execute the  unit tests
               run: npm run test:unit
+            # Add new step with my name
+            - name: Display SU username
+              run: echo 'baigeorgi'
